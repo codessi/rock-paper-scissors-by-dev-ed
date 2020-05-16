@@ -4,14 +4,11 @@
 /* for section tag - set height background color and basic font */
 
 
-
 /* for score class add color height display justify content and 
 align item */
 
 
-
 /* inside of score set h2 font size  */
-
 
 
 /* .score p text-align padding and fontsize*/
@@ -21,45 +18,29 @@ align item */
 justify-content transition */
 
 
-
 /* intro h1 font size */
-
 
 
 /* intro button & match button width height background 
 border color font_size background border-radius cursor  */
 
 
-
-
 /* .match  position top left tranform transition  */
 
 
-
-
 /* .winner color text_align font-size */
-
-
 
 
 /*.hand . options display justify-content align-items 
 learn about flex and what it do. */
 
 
-
-
 /* .player-hand rotate 180 deg?  */
-
-
 
 
 /* div.fadeOut  (something to dig in to) */
 
 
-
 /* find out more about @keyframes */
 
-
-
-@keyframes shakeComputer {
-  
+@keyframes shakeComputer {}
