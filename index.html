@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- link tag -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Rock paper and scissors</title>
+</head>
+
+<body>
+    <!-- section tag with class game (as container? ) -->
+    <section class="game">
+        <!-- score div -->
+        <div class="score">
+            <!-- player-score div -->
+            <div class="player-score">
+                <!-- h2 tag player -->
+                <h2>Player</h2>
+                <!-- p tag -->
+                <p>0</p>
+            </div>
+            <!-- computer score div computer h2 0 p -->
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+        <!-- class intro div h1 rock paper and scissors (main page )
+      let's play button  -->
+        <div class="intro">
+            <h1>Rock Paper and Scissors</h1>
+            <button>Let's Play</button>
+        </div>
+        <!-- this is where Lets play button is pushed and this "page" pops up 
+      class match fadeout div -->
+        <div class="match fadeOut">
+            <!-- h2 tag class winner says "Choose an option" but later displays 
+        who won  -->
+            <h2 class="winner">Choose an option</h2>
+            <!-- div tag with class "hands" and img tag with class "player-hand" and 
+        computer-hand" add source of imag(as default "rock") and set alt as blank  -->
+            <div class="hands">
+                <img class="player-hand" src="./assets/rock.png" alt="" />
+                <img class="computer-hand" src="./assets/rock.png" alt="" />
+            </div>
+            <!-- div for options class , then rock paper scissors buttons with class 
+        same name  -->
+            <div class="options">
+                <button class="rock">rock</button>
+                <button class="paper">paper</button>
+                <button class="scissors">scissors</button>
+            </div>
+
+        </div>
+    </section>
+    <!--  done here and just add script link  -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
