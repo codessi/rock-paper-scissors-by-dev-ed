@@ -3,53 +3,23 @@
 
 /* for section tag - set height background color and basic font */
 
-section {
-    height: 100vh;
-    background-color: rgb(39, 41, 68);
-    font-family: sans-serif;
-}
 
 
 /* for score class add color height display justify content and 
 align item */
 
-.score {
-    color: rgb(224, 224, 224);
-    height: 20vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 
 /* inside of score set h2 font size  */
 
-.score h2 {
-    font-size: 30px;
-}
 
 
 /* .score p text-align padding and fontsize*/
-
-.score p {
-    text-align: center;
-    padding: 10px;
-    font-size: 25px;
-}
 
 
 /* intro page set color heigh display flex-direction align-item
 justify-content transition */
 
-.intro {
-    color: rgb(224, 224, 224);
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transition: opacity 0.5s ease;
-}
 
 
 /* intro h1 font size */
